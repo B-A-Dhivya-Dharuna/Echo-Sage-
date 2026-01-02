@@ -13,3 +13,13 @@ export interface ResumeInfo {
   sections: string[];
   hasContactInfo: boolean;
 }
+
+export interface ATSScore {
+  matchedSkills: string[];
+  missingSkills: string[];
+  breakdown: {
+    experienceRelevance: number;
+    keywordAlignment: number;
+    toolsMatch: number;
+  };
+}

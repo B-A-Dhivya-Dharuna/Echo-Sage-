@@ -1,6 +1,5 @@
 import React, { useState, useRef } from 'react';
 import { Button } from './ui/button';
-import { Input } from './ui/input';
 import { Label } from './ui/label';
 import { Card, CardContent } from './ui/card';
 import { Upload, FileText, AlertCircle } from 'lucide-react';
